@@ -1,10 +1,10 @@
-# Serve in different langauge
+# Serve in different language
 
 ng serve (serve in default language written in code)
 
 ng serve --configuration=en (serve in english)
 
-ng serve --configuration=es (serve in spenish)
+ng serve --configuration=es (serve in spanish)
 
 # Production build
 
