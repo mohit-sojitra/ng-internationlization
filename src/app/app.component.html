@@ -1,3 +1,9 @@
+<div class="form-group text-left">
+  <select name="languages" id="languages" onchange="location = this.value;">
+    <option value="/en" [selected]="siteLocale === 'en'">English</option>
+    <option value="/es" [selected]="siteLocale === 'es'">Spanish</option>
+  </select>
+</div>
 <div class="container p-4">
   <div class="h2" i18n>Angular internationalization demo</div>
   <form>
