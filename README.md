@@ -1,3 +1,16 @@
+# Serve in different language
+
+ng serve (serve in default language written in code)
+
+ng serve --configuration=en (serve in english)
+
+ng serve --configuration=es (serve in spanish)
+
+# Production build
+
+ng build --prod --localize (This will create different build folders for each languages)
+
+
 # NgInternationalization
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
