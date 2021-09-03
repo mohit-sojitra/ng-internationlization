@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en-US" datatype="plaintext" original="ng2.template">
+		<body>
+			<trans-unit id="3900555589095118142" datatype="html">
+				<source>
+					Angular internationalization demo
+				</source>
+				<target>
+					Demostración de internacionalización angular
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						2
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="4768749765465246664" datatype="html">
+				<source>
+					Email
+				</source>
+				<target>
+					Email
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						6
+					</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						14
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="1431416938026210429" datatype="html">
+				<source>
+					Password
+				</source>
+				<target>
+					Contraseña
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						20
+					</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						28
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="3353118749371211790" datatype="html">
+				<source>
+					Radios
+				</source>
+				<source>
+					Radios
+				</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						34
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="5092538129178790547" datatype="html">
+				<source>
+					First radio
+				</source>
+				<target>
+					Primera radio
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						46,47
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="4878118157239283899" datatype="html">
+				<source>
+					Second radio
+				</source>
+				<target>
+					Segunda radio
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						58,59
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="6527471202755669909" datatype="html">
+				<source>
+					Third disabled radio
+				</source>
+				<target>
+					Tercera radio discapacitada
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						71,72
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="289341251890660084" datatype="html">
+				<source>
+					Checkbox
+				</source>
+				<target>
+					Caja
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						78
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="3186062008439267564" datatype="html">
+				<source>
+					Example checkbox
+				</source>
+				<target>
+					Example caja
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						83,84
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="5207635742003539443" datatype="html">
+				<source>
+					Sign in
+				</source>
+				<target>
+					Registrarse
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						90
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="7871747193846404170" datatype="html">
+				<source>
+					About US
+				</source>
+				<source>
+					Sobre nosotros
+				</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						94
+					</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="2008829413922589083" datatype="html">
+				<source>
+					Based on the specific client requirement, we developed a webcam-based software solution in such a specific way as it can simultaneously monitor and record multiple webcams. With support for both motion detection and sound detection, the webcam lets you keep an eye on your property from a remote location. WOW right? We strive to provide every single project with the same encouragement and wish to deliver the same remarkable web development service of creating something original, superior and exceptional. Since then, we’ve successfully implemented over 500 projects for more than different clients in almost all the industries.
+				</source>
+				<target>
+					Basándonos en el requisito específico del cliente, desarrollamos una solución de software basada en cámara web de una manera tan específica que puede monitorear y grabar simultáneamente varias cámaras web. Con soporte para detección de movimiento y detección de sonido, la cámara web le permite vigilar su propiedad desde una ubicación remota. WOW ¿verdad? Nos esforzamos por brindar a cada proyecto el mismo estímulo y deseamos brindar el mismo servicio de desarrollo web extraordinario para crear algo original, superior y excepcional. Desde entonces, hemos implementado con éxito más de 500 proyectos para más de diferentes clientes en casi todas las industrias.
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/app.component.html
+					</context>
+					<context context-type="linenumber">
+						96,105
+					</context>
+				</context-group>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

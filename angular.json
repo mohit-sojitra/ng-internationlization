@@ -1,10 +1,19 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "d5e61b6f-f861-42e1-9aba-398d72a57ec5"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ng-internationalization": {
       "projectType": "application",
+      "i18n": {
+        "locales": {
+          "es": "src/translate/messages.es.xlf",
+          "en": "src/translate/messages.xlf"
+        }
+      },
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
@@ -26,11 +35,9 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -62,6 +69,12 @@
                   "maximumError": "4kb"
                 }
               ]
+            },
+            "es": {
+              "localize": ["es"]
+            },
+            "en": {
+              "localize": ["en"]
             }
           }
         },
@@ -73,6 +86,12 @@
           "configurations": {
             "production": {
               "browserTarget": "ng-internationalization:build:production"
+            },
+            "es": {
+              "browserTarget": "ng-internationalization:build:es"
+            },
+            "en": {
+              "browserTarget": "ng-internationalization:build:en"
             }
           }
         },
@@ -89,13 +108,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           }
         },
@@ -107,9 +121,7 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
